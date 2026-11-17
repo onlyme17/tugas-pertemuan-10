@@ -1,0 +1,17 @@
+LAPORAN PERBAIKAN PERTEMUAN 10 LANJUTAN - PRODUK (FRONT-END)
+
+Sumber instruksi: PERTEMUAN 10 Lanjutan - Produk (Front-End), 5 halaman.
+
+Implementasi:
+1. Home: kartu produk, gambar, nama, harga, terjual, dan tombol lihat semua.
+2. Routes: /produk, /produk/{id}, /produk/tambah-keranjang.
+3. Controller baru: application/controllers/Produk_controller.php.
+4. Detail produk: application/views/ecom/produk_detail.php.
+5. Galeri thumbnail: klik thumbnail mengganti foto utama.
+6. Keranjang: jumlah beli dari form, validasi minimal 1 dan maksimal stok, gabung dengan jumlah yang sudah ada di session.
+7. Produk tidak ditemukan menghasilkan 404.
+
+Pemeriksaan:
+- Seluruh 737 file PHP pada proyek hasil ekstrak diperiksa dengan php -l.
+- Tidak ditemukan kesalahan sintaks PHP.
+- Pemeriksaan sintaks tidak menjalankan browser/database Laragon pengguna; uji end-to-end tetap perlu dilakukan di komputer pengguna.
